@@ -1,0 +1,47 @@
+Qs no 1.
+I have prepared testcases for a given shopping based scenario with proper flow of functionality.
+For cheking front end requirement no need to use any tool.we can execute the testcases manualy.
+Testcases for Frontend Requirement
+1>Verify the component which is use to add new item is at the top corner or not
+2>Verify that items in inventory have name, description and price
+3>Uploading the picture of the item is not mandatory
+4>Verify that the list of the item is placed below the inventory that adds item
+5>Verify that items in list have name, description and price
+6>Verify that buttons are available on item so that we can remove it from inventory
+7>Verify that the content of the page is horizontally and vertically centred.
+
+Testcases for Backend Requirement
+I have also written the test cases for backend requirement.
+To validate the data in the backend i need to use API request.
+so by using the API call we can validate the data
+
+
+Qs no 2.
+The scenario given here is to automate flight search function
+But the site given is not reachable so i can not put xpath.
+I have created one base class or page class in TestNG where i have make one object repository, its initialisation and verification.
+And whatever the action methods, test cases , navigation steps i have maintained it in Test class.
+I have used @beforeclass and @test annotation in flighttest class
+when you run the flighttest class you will get testng console where you will get the pass test cases and fail test cases.
+
+Qs no 3.
+The given scenarion is customer portal for online application in which online form for electricity connection is given.
+Here all the textfields are put properly and mandatory field also
+Whatever the improvement are needed from my point of view i have mentioned it.
+just like whatever the load used by customer that should be mentioned in kw in given format.
+After filling all mandatory fields or after submitting application it should generate application id which will be unique.
+Feedback-
+1>all related texfields are put correctly
+2>mandatory field are marked correctly
+3>all over performance of the application is good
+
+Improvements-
+
+1>Details of load to be furnished by giving wattage of individual
+appliances should be in the given format
+2>In case of more number of appliances, enter only Total load (KW) in
+the Application.
+3>After filling in the entire mandatory details and after pressing Submit button, the
+On-line application number should be generated.
+Applicants for New Connection for load 100KW to 150 KW are required to pay
+the Registration Fee.
